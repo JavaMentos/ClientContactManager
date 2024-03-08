@@ -56,7 +56,6 @@ class ContactInfoServiceTest {
 
     @Test
     void testGetContactByClientAndType_ExistingContacts_ReturnsContactList() {
-        // Arrange
         String clientName = "Molly";
         ContactType contactType = ContactType.PHONE;
         ContactInfo contactInfo1 = new ContactInfo(new Client(clientName), ContactType.PHONE, "89165558877");
