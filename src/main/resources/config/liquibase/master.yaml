@@ -1,0 +1,9 @@
+databaseChangeLog:
+  - include:
+      file: config/liquibase/changelog/01-table-clients.sql
+  - include:
+      file: config/liquibase/changelog/02-table-contact_info.sql
+  - include:
+      file: config/liquibase/changelog/data/01-insert-clients.sql
+  - include:
+      file: config/liquibase/changelog/data/02-insert-contact_info.sql
